@@ -274,7 +274,7 @@
             themeLink: null,
             fbLink: "https://www.facebook.com/OUReview",
             youtubeLink: "https://www.youtube.com/channel/UCJDL29s0RX3RG5clF2MOoHg?&ab_channel=OURFanSub",
-            website: "http://oureview.forumcommunity.net/",
+            website: "http://oureview.forumcommunity.net",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
