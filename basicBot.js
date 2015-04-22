@@ -181,9 +181,9 @@
     var basicBot = {
         version: "2.3.4",
         status: false,
-        name: "basicBot",
+        name: "OurBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        scriptLink: "https://raw.githubusercontent.com/OURBotOUReview/ourbotoureview/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         chat: null,
@@ -191,7 +191,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "OURBot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
@@ -202,7 +202,7 @@
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
-            blacklistEnabled: true,
+            blacklistEnabled: false,
             lockdownEnabled: false,
             lockGuard: false,
             maximumLocktime: 10,
@@ -211,11 +211,11 @@
             voteSkip: false,
             voteSkipLimit: 10,
             historySkip: false,
-            timeGuard: true,
+            timeGuard: false,
             maximumSongLength: 10,
             autodisable: true,
             commandCooldown: 30,
-            usercommandsEnabled: true,
+            usercommandsEnabled: false,
             lockskipPosition: 3,
             lockskipReasons: [
                 ["theme", "This song does not fit the room theme. "],
@@ -265,16 +265,16 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
-            filterChat: true,
+            motd: "Visitateci su http://oureview.forumcommunity.net/",
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
-            youtubeLink: null,
-            website: null,
+            fbLink: https://www.facebook.com/OUReview,
+            youtubeLink: https://www.youtube.com/channel/UCJDL29s0RX3RG5clF2MOoHg?&ab_channel=OURFanSub,
+            website: http://oureview.forumcommunity.net/,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -2543,7 +2543,7 @@
                         var name;
                         if (lastSpace === msg.indexOf(' ')) {
                             name = msg.substring(cmd.length + 2);
-                            time = 45;
+                            time = 15;
                         }
                         else {
                             time = msg.substring(lastSpace + 1);
